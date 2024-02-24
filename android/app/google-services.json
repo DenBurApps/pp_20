@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "920909560389",
+    "project_id": "appsportquizpp17margo",
+    "storage_bucket": "appsportquizpp17margo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920909560389:android:02c210d55e298b2d1a012c",
+        "android_client_info": {
+          "package_name": "com.example.pp_20"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOAXIdde0RIRHIZrOhPkNT9A7nLdwD0Vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

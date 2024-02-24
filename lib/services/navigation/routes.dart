@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:pp_20/widgets/screens/combs.dart';
 import 'package:pp_20/widgets/screens/home_menu.dart';
 import 'package:pp_20/widgets/screens/privacy.dart';
+import 'package:pp_20/widgets/screens/privacy_agreement_view.dart';
 import 'package:pp_20/widgets/screens/selected_comb.dart';
 import 'package:pp_20/widgets/screens/selected_quiz_description.dart';
 import '../../widgets/screens/quiz.dart';
@@ -21,8 +22,8 @@ class Routes {
     return {
       RouteNames.splash: (context) => const SplashView(),
       RouteNames.onboarding: (context) => const OnboardingView(),
-      RouteNames.home: (context) => HomeView(),
-      RouteNames.settings: (context) => SettingsView(),
+      RouteNames.home: (context) => const HomeView(),
+      RouteNames.settings: (context) => const  SettingsView(),
       RouteNames.privacy: (context) => const PrivacyView(),
       RouteNames.terms: (context) => const TermsView(),
       RouteNames.category: (context) => const SelectedArticleView(),
@@ -32,7 +33,8 @@ class Routes {
       RouteNames.selectedQuiz: (context) => SelectedQuizDescriptionView(),
       RouteNames.selectedArticle: (context) => const SelectedArticleView(),
       RouteNames.selectedComb: (context) => const SelectedCombView(),
-      RouteNames.quiz: (context) => QuizView(),
+      RouteNames.quiz: (context) => const QuizView(),
+      RouteNames.privacyAgreement:(context) =>  const PrivacyAgreementView()
     };
   }
 }

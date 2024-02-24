@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:pp_20/helpers/text_helper.dart';
 
 import '../../helpers/constants.dart';
 
@@ -32,7 +34,9 @@ class TermsView extends StatelessWidget {
               const SizedBox(height: 10),
               const Padding(
                 padding: EdgeInsets.only(left: 20, right: 20),
-                child: Text(privacyTermsText),
+                child: MarkdownBody(
+                  data: TextHelper.terms,
+                ),
               ),
             ],
           ),

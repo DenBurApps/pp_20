@@ -5,7 +5,7 @@ import '../../helpers/image/image_helper.dart';
 import '../../services/navigation/route_names.dart';
 
 class SettingsView extends StatefulWidget {
-  SettingsView({super.key});
+  const SettingsView({super.key});
 
   @override
   State<SettingsView> createState() => _SettingsViewState();
@@ -15,7 +15,7 @@ class _SettingsViewState extends State<SettingsView> {
   final TextEditingController _inputController = TextEditingController();
 
   void _send() => EmailHelper.launchEmailSubmission(
-        toEmail: 'huansui@sontfinances.site',
+        toEmail: 'ahsandad@dekhelp.space',
         subject: _inputController.text,
         errorCallback: () {},
         doneCallback: () => setState(() {
