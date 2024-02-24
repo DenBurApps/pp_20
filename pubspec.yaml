@@ -1,0 +1,45 @@
+name: pp_20
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  hive: 2.2.3
+  hive_flutter: ^1.1.0
+  carousel_slider: ^4.2.1
+  flutter_svg: 2.0.9
+  google_fonts: ^6.1.0
+  get_it: ^7.6.7
+  shared_preferences: ^2.2.2
+  connectivity_plus: ^5.0.2
+  in_app_review: ^2.0.8
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+  flutter_native_splash: ^2.3.7
+
+flutter:
+  fonts:
+    - family: SFPRODISPLAY
+      fonts:
+        - asset: fonts/SFPRODISPLAYREGULAR.OTF
+        - asset: fonts/SFPRODISPLAYLIGHTITALIC.OTF
+          style: italic
+        - asset: fonts/SFPRODISPLAYBOLD.OTF
+          weight: 700
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
